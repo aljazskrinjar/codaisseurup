@@ -19,6 +19,16 @@
     <% @categories.each do |category| %>
       <span class="label label-success"><%= category.name %></span>
     <% end %>
+
+    <h4>Photos</h4>
+  <% @event.photos.each do |photo| %>
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <%= image_tag photo.image.thumbnail %>
+  </div>
+  </div>
+  <% end %>
+
   </div>
 </div>
 
