@@ -21,6 +21,8 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'carrierwave', '0.11.2'
 
+gem 'cloudinary', '1.2.3'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
