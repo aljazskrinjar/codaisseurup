@@ -25,3 +25,14 @@ describe "shared/_navbar.html.erb" do
     end
   end
 end
+
+# describe "Checks log in and sign up" do
+#   let!(:user) { create :user }
+#
+#   it "renders if not log in" do
+#     render
+#     expect(rendered)
+#   end
+#
+#
+# end

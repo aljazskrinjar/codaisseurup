@@ -14,6 +14,13 @@ miriam = User.create(email: "miriam@codaisseurbnb.com", password: "abcd1234")
 wouter = User.create(email: "wouter@codaisseurbnb.com", password: "abcd1234")
 matt = User.create(email: "matt@codaisseurbnb.com", password: "abcd1234")
 
+# factory :user do
+#   email    { Faker::Internet.email }
+#   password { Faker::Internet.password }
+
+user2=User.create(email: FactoryGirl.create(:user).email,password: FactoryGirl.create(:user).password)
+user3=User.create(email: Faker::Internet.email, password: Faker::Internet.password)
+
 
 arno = User.create!(
   email: 'arno@codaisseur.com',
