@@ -19,7 +19,7 @@ class Api::EventsController < ApplicationController
     event =Event.find(params[:id])
     event.destroy
     render status:200, json:
-    {message: "Event succesfully created"}.to_json
+    {message: "Event succesfully deleted"}.to_json
 
   end
 
